@@ -1,61 +1,10 @@
 # s21_matrix  
 
-> При старте работы над проектом просим вас постараться хронометрировать время работы над проектом.
-> По завершении работы над проектом просим вас ответить на два вопроса [в этом опросе](https://forms.gle/vpUwLY2KyV1B1B3o9)
-
-
 Implementation of the matrix.h library.   
 
 The russian version of the task can be found in the repository.
 
 
-## Contents  
-
-1. [Chapter I](#chapter-i) \
-   1.1. [Introduction](#introduction)
-2. [Chapter II](#chapter-ii) \
-   2.1. [Information](#information)
-3. [Chapter III](#chapter-iii) \
-   3.1. [Part 1](#part-1-implementation-of-the-matrixh-library-functions)
-
-
-# Chapter I  
-
-![matrix](misc/eng/images/matrixx.png)
-
-Planet Earth, USA, Texas, Dallas County, 1703 Matthew Street, September 13, 2000.  
-
-*-- Our CEO has such a wonderful country house! There is everything to make ideas come true. A veranda facing a huge swimming pool on the lawn complete the image of a keen and intelligent person.*
-
-*- Yes, I agree, so glad we were invited here, this place is very energetic!*  
-
-*-- Absolutely! So, for a few days now, the main id Software tech team has been discussing the new technology we would like to introduce in our upcoming game Doom 3. What creates the most sense of reality in a picture? Of course it's a game of light and shadows, which now takes too long to compute, putting a lot of strain on the CPU. John is known for his technological and algorithmic ideas and tricks, which made it possible to achieve crazy breakthroughs in speed and code optimisation.* \
-*What was I talking about… Our chief technician and founder John Carmack presented a theoretical development that would allow you to cast shadows on a scene after going through the entire graphics pipeline, using a depth and a stencil buffer.* 
-
-*- Oh wow, it gives me goosebumps, tell us more!*
-
-*-- We didn't invite you to this party by chance, the whole team is working on a new method of building shadows on a scene, and John assigned your department specifically to implement a very fast and optimised library of all sorts of matrix transformations, which will underpin all the mathematical logic of the algorithm. Vectors and matrices, transpose and SRT conversions, and many other mathematical objects and operations that are used in computer graphics.* \
-*For a correct and considered transition to the new method, we need a significant and impressive performance changes, and you will be in charge of them!*
-
-*- My team and I are very happy to help you, and ready to get to work as early as tomorrow!*
-
-*-- Perfect! Who knows, maybe one day it will be enough just to cast the rays to build light and shadows … but for now we are limited by the technology of our time and need to roll with the punches, so let’s do it! And yes, don't you dare miss deadlines, he doesn't like that.*
-
-## Introduction
-
-In this project you will implement your own library for processing numerical matrices in the C programming language. Matrices are one of the basic data structures in programming, e.g. they are used to represent table values, for computational tasks and neural networks. As part of the project you will learn more about matrices and solidify knowledge of structured programming.
-
-
-# Chapter II
-
-## Information
-
-### Historical background
-
-The first mentions of matrices (or as they were called then - "magic squares") were found in ancient China. \
-They became famous in the middle of the 18th century thanks to the work of the famous mathematician Gabriel Cramer, who published his work "Introduction to the Analysis of Algebraic Curves", which described a fundamentally new algorithm for solving systems of linear equations. \
-Soon after, the works of Carl Friedrich Gauss on the "classical" method of solving linear equations, the Cayley-Hamilton theorem, the works of Karl Weierstrass, Georg Frobenius, and other outstanding scientists were published. \
-It was not until 1850 that James Joseph Sylvester introduced the term "Matrix" in his work.
 
 ## Matrix
 
@@ -357,7 +306,6 @@ A^(-1) =  1/|A| * M^T. = -38  41 -34
                           27 -29  24 
 ```
 
-
 # Chapter III
 
 ## Part 1. Implementation of the matrix.h library functions
@@ -378,5 +326,3 @@ Implement basic operations with matrices (partially described [above](#matrix-op
 - The matrix must be implemented as the structure described [above](#matrix-structure-in-c-language)
 - Verifiable accuracy of the fractional part is up to 6 decimal places
 
-
-💡 [Tap here](https://forms.yandex.ru/u/6357d9e22530c230b571513b/)** to leave your feedback on the project**. Pedago Team really tries to make your educational experience better.
